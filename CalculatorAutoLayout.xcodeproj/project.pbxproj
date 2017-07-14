@@ -28,6 +28,7 @@
 		AEB2B6AA1F14FA44007689D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEB2B6AC1F14FA44007689D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEB2B6B71F14FA97007689D5 /* roundedButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roundedButtons.swift; sourceTree = "<group>"; };
+		AEC265321F192EA400929A3A /* Auto Layout.key */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Auto Layout.key"; path = "../../../../../Documents/Auto Layout.key"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		AEB2B6941F14FA44007689D5 = {
 			isa = PBXGroup;
 			children = (
+				AEC265311F192E8D00929A3A /* Presentation */,
 				AEB2B69F1F14FA44007689D5 /* CalculatorAutoLayout */,
 				AEB2B69E1F14FA44007689D5 /* Products */,
 			);
@@ -111,6 +113,14 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		AEC265311F192E8D00929A3A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AEC265321F192EA400929A3A /* Auto Layout.key */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

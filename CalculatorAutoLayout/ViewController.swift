@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         randomButton.centerXAnchor.constraint(equalTo: helloBtn.centerXAnchor).isActive = true
         randomButton.widthAnchor.constraint(equalTo: helloBtn.widthAnchor).isActive = true
         randomButton.heightAnchor.constraint(equalTo: helloBtn.heightAnchor).isActive = true
-
+        
     }
     
     let randomButton: UIButton = {
