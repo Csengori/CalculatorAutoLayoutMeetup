@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE24BD081F1928FF00FB0E7D /* calculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE24BD071F1928FF00FB0E7D /* calculatorViewController.swift */; };
+		AE2663E41F153EF200614B18 /* bottomBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2663E31F153EF200614B18 /* bottomBorder.swift */; };
 		AEB2B6A11F14FA44007689D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB2B6A01F14FA44007689D5 /* AppDelegate.swift */; };
 		AEB2B6A31F14FA44007689D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB2B6A21F14FA44007689D5 /* ViewController.swift */; };
 		AEB2B6A61F14FA44007689D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB2B6A41F14FA44007689D5 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE24BD071F1928FF00FB0E7D /* calculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calculatorViewController.swift; sourceTree = "<group>"; };
+		AE2663E31F153EF200614B18 /* bottomBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bottomBorder.swift; sourceTree = "<group>"; };
 		AEB2B69D1F14FA44007689D5 /* CalculatorAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB2B6A01F14FA44007689D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEB2B6A21F14FA44007689D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				AEB2B6A21F14FA44007689D5 /* ViewController.swift */,
+				AE24BD071F1928FF00FB0E7D /* calculatorViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				AEB2B6B71F14FA97007689D5 /* roundedButtons.swift */,
+				AE2663E31F153EF200614B18 /* bottomBorder.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -180,7 +186,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE2663E41F153EF200614B18 /* bottomBorder.swift in Sources */,
 				AEB2B6A31F14FA44007689D5 /* ViewController.swift in Sources */,
+				AE24BD081F1928FF00FB0E7D /* calculatorViewController.swift in Sources */,
 				AEB2B6B81F14FA97007689D5 /* roundedButtons.swift in Sources */,
 				AEB2B6A11F14FA44007689D5 /* AppDelegate.swift in Sources */,
 			);
@@ -348,6 +356,7 @@
 				AEB2B6B11F14FA44007689D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
